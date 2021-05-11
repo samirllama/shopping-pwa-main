@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "paths": {
+      "*": ["*", "src/common/*"]
+    },
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "include": ["src/**/*"]
+}

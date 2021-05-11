@@ -1,0 +1,52 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "pwa-tslint-rules"],
+  "lintOptions": {
+    "typeCheck": true
+  },
+  "linterOptions": {
+    "exclude": ["**/*.js", "**/*.jsx", "src/common/__generated__/**/*"]
+  },
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "arrow-return-shorthand": [true, "multiline"],
+    "comment-format": [false],
+    "completed-docs": [false],
+    "deprecation": [true],
+    "indent": [true, "spaces", 2],
+    "interface-name": ["never-prefix"],
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "max-file-line-count": [true, 300],
+    "max-line-length": [true, 140],
+    "member-ordering": [false],
+    "newline-before-return": true,
+    "no-namespace": [true, "allow-declarations"],
+    "no-null-keyword": false,
+    "no-parameter-reassignment": false,
+    "no-require-imports": true,
+    "no-string-literal": false,
+    "no-submodule-imports": false,
+    "no-unsafe-any": false,
+    "no-unused-expression": false,
+    "no-unused-variable": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": [false],
+    "one-line": [false],
+    "prefer-const": true,
+    "prefer-object-spread": false,
+    "quotemark": [true, "single", "avoid-escape", "jsx-double"],
+    "strict-boolean-expressions": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "single": "never"
+      }
+    ],
+    "typedef": [true],
+    "variable-name": false
+  }
+}

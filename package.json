@@ -1,0 +1,334 @@
+{
+  "dependencies": {
+    "@gc/global-components": "0.7.0",
+    "@shared-ui/bex-api-context": "^1.0.0",
+    "@shared-ui/customer-notifications": "0.0.1-alpha.6",
+    "@shared-ui/experiment-context": "^1.0.0",
+    "@shared-ui/local-expert-activities": "0.5.2",
+    "@shared-ui/localization-context": "1.0.21",
+    "@shared-ui/trip-planning-cart": "1.0.1",
+    "@shared-ui/trip-planning-travelpulse": "0.2.1",
+    "@uds/export-web": "1.232.0",
+    "@uds/format-icons-uitk": "^1.196.0",
+    "apollo-boost": "0.4.4",
+    "apollo-cache-inmemory": "1.6.3",
+    "apollo-link-batch-http": "1.2.13",
+    "apollo-progressive-fragment-matcher": "1.0.8",
+    "bernie": "0.27.2",
+    "bernie-alter": "0.27.0",
+    "browser-cookies": "1.2.0",
+    "flatmap": "0.0.3",
+    "get-form-data": "1.2.5",
+    "graphql": "0.13.2",
+    "graphql-anywhere": "4.2.4",
+    "homeaway-react-chat-ui-wrapper": "0.7.5",
+    "invariant": "2.2.4",
+    "lodash.debounce": "4.0.8",
+    "lodash.throttle": "4.1.1",
+    "mobx": "3.4.1",
+    "mobx-react": "4.3.5",
+    "mobx-utils": "2.0.1",
+    "moment": "2.18.1",
+    "platform-analytics-prime": "~1.0.62",
+    "prop-types": "15.6.0",
+    "react": "16.8.6",
+    "react-apollo": "3.1.1",
+    "react-dom": "16.8.6",
+    "react-highlighter": "0.4.3",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-swipeable": "4.2.0",
+    "react-transition-group": "2.3.0",
+    "shopping-pwa-localization": "1.0.592",
+    "uitk-react-badge": "7.1.0",
+    "uitk-react-banner": "0.1.27",
+    "uitk-react-breadcrumbs": "0.1.51",
+    "uitk-react-button": "5.0.7",
+    "uitk-react-button-toggle": "0.3.0",
+    "uitk-react-cards": "4.3.2",
+    "uitk-react-carousel": "4.0.0",
+    "uitk-react-date-picker": "7.1.5",
+    "uitk-react-dialog": "5.1.43",
+    "uitk-react-empty-state": "0.1.8",
+    "uitk-react-error-summary": "0.1.0",
+    "uitk-react-expando": "2.0.35",
+    "uitk-react-experimental-app-hero": "0.1.0-canary.285.300f02a5",
+    "uitk-react-experimental-badge-vip-access": "0.1.0-canary.322.ba648be6",
+    "uitk-react-experimental-banner": "0.1.0-canary.311.cf292426",
+    "uitk-react-experimental-messaging-cards": "1.1.0-canary.292.76f69afa",
+    "uitk-react-field": "3.0.27",
+    "uitk-react-flag": "0.8.0",
+    "uitk-react-flex": "1.0.2",
+    "uitk-react-foundation": "7.3.0",
+    "uitk-react-gallery-carousel": "2.0.40",
+    "uitk-react-grid": "3.2.17",
+    "uitk-react-icons": "5.11.1",
+    "uitk-react-images": "4.2.0-canary.227.a5dcba71",
+    "uitk-react-input": "5.1.16",
+    "uitk-react-layout": "0.2.0",
+    "uitk-react-layout-columns": "0.1.2",
+    "uitk-react-layout-flex": "1.1.0",
+    "uitk-react-layout-grid": "0.1.6",
+    "uitk-react-link": "1.1.0",
+    "uitk-react-loader": "2.1.0",
+    "uitk-react-map": "8.1.4",
+    "uitk-react-mark": "2.6.2",
+    "uitk-react-media-gallery": "6.0.1",
+    "uitk-react-menu": "8.5.40",
+    "uitk-react-messaging-cards": "1.0.2",
+    "uitk-react-more-info-trigger": "0.2.0",
+    "uitk-react-new-date-picker": "8.2.5",
+    "uitk-react-pill": "4.1.0",
+    "uitk-react-price-lockup": "2.3.0",
+    "uitk-react-progress-bar": "0.2.1",
+    "uitk-react-range-indicator": "0.4.1",
+    "uitk-react-rating": "^1.12.48",
+    "uitk-react-scrim": "1.1.0",
+    "uitk-react-select": "2.1.10",
+    "uitk-react-sheet": "2.4.44",
+    "uitk-react-skeleton": "0.1.4",
+    "uitk-react-slider": "3.0.14",
+    "uitk-react-step-indicator-experimental": "0.1.0-canary.241.05a75233",
+    "uitk-react-step-input": "3.0.15",
+    "uitk-react-sticky": "0.2.1",
+    "uitk-react-switch": "6.3.1",
+    "uitk-react-tables": "0.3.0",
+    "uitk-react-tabs": "3.5.2",
+    "uitk-react-text": "0.4.0",
+    "uitk-react-toast": "0.4.1",
+    "uitk-react-toolbar": "6.0.14",
+    "uitk-react-typeahead": "11.1.0",
+    "uitk-react-unformatted-html": "0.1.0",
+    "uitk-react-utils": "2.0.2",
+    "wait-for-expect": "3.0.0",
+    "winston": "2.3.1",
+    "xss": "0.3.3"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "3.1.3",
+    "@commitlint/cli": "7.2.1",
+    "@commitlint/config-conventional": "7.1.2",
+    "@lhci/cli": "0.3.8",
+    "@types/express": "4.11.0",
+    "@types/graphql": "14.0.7",
+    "@types/jest": "21.1.8",
+    "@types/react": "16.9.34",
+    "@types/sinon": "4.1.2",
+    "@types/supertest": "2.0.6",
+    "babel-eslint": "10.0.1",
+    "bff-offline": "1.0.5",
+    "chai": "4.1.2",
+    "chai-enzyme": "1.0.0-beta.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.2.0",
+    "es-check": "5.0.0",
+    "eslint": "5.6.1",
+    "eslint-cache": "0.1.3",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-json": "1.2.1",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "find": "0.3.0",
+    "glob": "7.1.1",
+    "gulp": "4.0.0",
+    "gulp-gzip": "1.4.0",
+    "gulp-util": "3.0.8",
+    "husky": "1.1.0",
+    "import-reorder": "1.2.0",
+    "jest": "22.4.3",
+    "jest-enzyme": "7.0.0",
+    "jest-localstorage-mock": "2.4.0",
+    "js-base64": "2.5.1",
+    "knox": "0.9.2",
+    "knox-ec2-role": "0.0.8",
+    "lighthouse": "5.6.0",
+    "lint-staged": "7.3.0",
+    "mime": "2.2.0",
+    "pm2": "4.2.3",
+    "prettier": "1.19.1",
+    "puppeteer": "2.1.0",
+    "pwa-tslint-rules": "0.0.10",
+    "raf": "3.4.0",
+    "randomstring": "1.1.5",
+    "rimraf": "2.6.1",
+    "sinon": "4.0.2",
+    "size-limit": "0.21.1",
+    "stats-analysis": "2.0.0",
+    "statsd-client": "0.4.0",
+    "stylelint": "8.0.0",
+    "stylelint-config-standard": "17.0.0",
+    "stylelint-order": "0.6.0",
+    "stylelint-scss": "2.1.0",
+    "supertest": "3.0.0",
+    "ts-jest": "22.4.4",
+    "tslint": "6.0.0",
+    "tslint-microsoft-contrib": "6.0.0",
+    "tslint-react": "3.5.1",
+    "type-coverage": "1.5.1"
+  },
+  "engines": {
+    "node": ">=9.4.0",
+    "npm": ">=5.6.0",
+    "yarn": ">=1.2.1"
+  },
+  "homepage": "https://github.expedia.biz/Brand-Expedia/shopping-pwa",
+  "license": "UNLICENSED",
+  "main": "./server.js",
+  "name": "shopping-pwa",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.expedia.biz/Brand-Expedia/shopping-pwa.git"
+  },
+  "scripts": {
+    "build:local-assets": "NODE_ENV=production bernie webpack --use-localhost",
+    "build": "NODE_ENV=production bernie webpack",
+    "clean:generated": "rimraf src/common/__generated__",
+    "clean": "rimraf static && rimraf build && rimraf coverage && rimraf logs && rimraf dist",
+    "dev:local-bff": "API_URL=http://localhost:8081/ yarn dev",
+    "dev": "NODE_ENV=development bernie go --random-tpids 70201",
+    "eslint": "echo 'Running eslint...' && eslint-cache --ext js,jsx,json .",
+    "fake-bff": "bff-offline",
+    "graphql": "yarn clean:generated && bernie graphql-schema && bernie graphql-client",
+    "lint": "npm run stylelint && npm run eslint && npm run tslint && type-coverage",
+    "nuke": "yarn clean && rimraf node_modules",
+    "offline": "npm run fake-bff | API_URL=http://localhost:1337 CONTEXT_URL=http://localhost:1337/hotel-shop/api/context NODE_ENV=development bernie go",
+    "perf-benchmark": "yarn build:local-assets && jest -c jest.config.perf.js",
+    "postbuild": "gulp upload",
+    "postprod": "bernie upload",
+    "poststart:test": "NODE_ENV=test bernie go",
+    "prebuild": "yarn clean",
+    "predev": "./tasks/yarn-check.sh && yarn clean",
+    "preprod": "yarn clean && bernie generate-build-info",
+    "prestart:test": "yarn clean",
+    "pretest": "npm run test:lockfile && npm run clean && npm run lint --silent",
+    "prettify": "echo 'Prettifying...' && prettier --config .prettierrc.json --write",
+    "prod": "NODE_ENV=production bernie webpack",
+    "rebuild": "./tasks/yarn-check.sh && yarn nuke && yarn install && yarn graphql",
+    "reorder": "node_modules/import-reorder/reorder.js",
+    "start:local-assets": "bernie go --use-localhost",
+    "start:test": "NODE_ENV=test bernie webpack && gulp upload",
+    "start": "bernie go",
+    "stylelint": "echo 'Running stylelint...' && stylelint 'src/common/stylesheets/**/*.scss' -s scss",
+    "test:bundles:es5": "jest --coverage=false --testMatch='<rootDir>/test/client/es5-target-validation.ts' --verbose",
+    "test:bundles:size": "yarn size-limit",
+    "test:bundles": "NODE_ENV=production bernie webpack --only-client && npm run test:bundles:size && npm run test:bundles:es5",
+    "test:graphql": "jest --config=jest.config.graphql.js",
+    "test:jest:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "test:jest:watch": "jest --watch",
+    "test:jest": "jest",
+    "test:lockfile": "sh ./tasks/test-lockfile.sh",
+    "test": "npm run test:jest && ./test-coverage.sh",
+    "tslint-secondary": "echo 'Linting TypeScript...' && tslint --config ./tslint.secondary.json --format stylish --fix",
+    "tslint": "echo 'Running tslint...' && tslint --config ./tslint.json --format stylish --project ./tsconfig.json",
+    "perf:lighthouse-ci": "rimraf .lighthouseci && lhci autorun",
+    "perf:lighthouse-ci:run": "pm2 delete all ; yarn build:local-assets && node ./tasks/lhci.ecosystem.config.js && yarn perf:lighthouse-ci"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn graphql && git add src/common/__generated__/api/*.ts && git diff --name-only --cached | yarn reorder && lint-staged && node ./test/no-date-hook",
+      "pre-push": "commitlint --from=origin/master --to=HEAD"
+    }
+  },
+  "lint-staged": {
+    "*.@(j|t)s?(x|on)": [
+      "yarn prettify",
+      "git add"
+    ],
+    "*.ts?(x)": [
+      "yarn tslint-secondary",
+      "git add"
+    ]
+  },
+  "size-limit": [
+    {
+      "path": "./static/analytics.*.js",
+      "limit": "1 KB"
+    },
+    {
+      "path": "./static/chat-bot.*.js",
+      "limit": "139.5 KB"
+    },
+    {
+      "path": "./static/app-shared.*.js",
+      "limit": "87.5 KB"
+    },
+    {
+      "path": "./static/app.*.js",
+      "limit": "78.0 KB"
+    },
+    {
+      "path": "./static/bernie.*.js",
+      "limit": "23.75 KB"
+    },
+    {
+      "path": "./static/core.*.js",
+      "limit": "66.5 KB"
+    },
+    {
+      "path": "./static/graphql.*.js",
+      "limit": "32.25 KB"
+    },
+    {
+      "path": "./static/hotel-home.*.js",
+      "limit": "810 B"
+    },
+    {
+      "path": "./static/infosite.*.js",
+      "limit": "54.6 KB"
+    },
+    {
+      "path": "./static/infosite-RoomsAndRates.*.js",
+      "limit": "22.42 KB"
+    },
+    {
+      "path": "./static/infosite-RoomRatePlans.*.js",
+      "limit": "14 KB"
+    },
+    {
+      "path": "./static/pwa.*.js",
+      "limit": "760 B"
+    },
+    {
+      "path": "./static/pap.*.js",
+      "limit": "52.25 KB"
+    },
+    {
+      "path": "./static/required-inline.*.js",
+      "limit": "13.7 KB"
+    },
+    {
+      "path": "./static/search.*.js",
+      "limit": "24.90 KB"
+    },
+    {
+      "path": "./static/style.*.js",
+      "limit": "38 KB"
+    },
+    {
+      "path": "./static/uitk.*.js",
+      "limit": "90.5 KB"
+    },
+    {
+      "path": "./static/uitk-icons.*.js",
+      "limit": "43.75 KB"
+    },
+    {
+      "path": "./static/vendor.*.js",
+      "limit": "38.25 KB"
+    },
+    {
+      "path": "./static/webpack-runtime.*.js",
+      "limit": "1.2 KB"
+    }
+  ],
+  "typeCoverage": {
+    "atLeast": 87
+  },
+  "version": "1.0.1",
+  "resolutions": {
+    "node-sass": "4.12.0",
+    "typeahead-client-logger": "1.1.12"
+  }
+}

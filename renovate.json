@@ -1,0 +1,13 @@
+{
+  "extends": ["config:base", "@expedia:default", "@expedia:bernie"],
+  "packageRules": [
+    {
+      "packagePatterns": ["."],
+      "enabled": false
+    },
+    {
+      "packagePatterns": ["^bernie"],
+      "enabled": true
+    }
+  ]
+}
